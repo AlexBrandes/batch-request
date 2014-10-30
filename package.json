@@ -1,8 +1,11 @@
 {
-  "name": "batch-request",
+  "name": "batch-request-mlyons",
   "description": "Batch Request - Utility library to enable a server to handle batch requests",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Victor Quinn <mail@victorquinn.com>",
+  "contributors": [
+    "Mike Lyons <mdl0394@gmail.com>"
+  ],
   "homepage": "http://batch-request.socialradar.com",
   "repository": "https://github.com/socialradar/batch-request",
   "main": "lib/batch-request.js",
