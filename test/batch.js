@@ -114,6 +114,22 @@ describe('batch', function() {
                 });
         });
 
+        it('will fail a POST without json true in request body', function(done) {
+            var first = chance.first();
+            request(app)
+                .post('/batch')
+                .send({
+                    getName: {
+                        method: 'POST',
+                        body: { first: first },
+                        url: 'http://localhost:3000/users/1/name'
+                    }
+                })
+                .expect(500, function(err, res) {
+                    done();
+                });
+        });
+
         it('will handle a PUT correctly', function(done) {
             request(app)
                 .post('/batch')
