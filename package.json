@@ -1,7 +1,7 @@
 {
   "name": "batch-request-mlyons",
   "description": "Batch Request - Utility library to enable a server to handle batch requests",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "Victor Quinn <mail@victorquinn.com>",
   "contributors": [
     "Mike Lyons <mdl0394@gmail.com>"
